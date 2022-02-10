@@ -1,0 +1,19 @@
+@media (max-width:612px){
+    .medias{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width:752px){
+    .covidMensage{
+        h6{
+            font-size: 0.9rem;
+        } 
+        @media (max-width:628px){
+        h6{
+            font-size: 0.6rem;
+        }
+    }
+    }
+ 
+}
+   

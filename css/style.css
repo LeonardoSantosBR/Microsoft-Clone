@@ -1,0 +1,147 @@
+.navbar {
+  padding-left: 50px;
+  background-color: white;
+}
+.navbar .nav-end a {
+  color: #423f3f;
+}
+.navbar .nav-end:hover {
+  text-decoration: underline;
+}
+
+.carousel-inner {
+  height: 30em;
+  border-radius: 5px;
+}
+.carousel-inner .caption1 {
+  color: black;
+}
+.carousel-inner .description1 {
+  color: black;
+}
+.carousel-inner .indicator1 {
+  background-color: black;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  background-color: white;
+}
+.container2 .medias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
+.container2 .medias i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.container2 .medias span {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+.container2 .medias span:hover {
+  text-decoration: underline;
+}
+
+.container3 {
+  width: 100%;
+  height: 60vh;
+  background-color: white;
+}
+.container3 .IoSandroid {
+  display: flex;
+  align-items: center;
+  width: 86%;
+  height: 60vh;
+  background-color: #e7e7e7;
+  border-radius: 5px;
+}
+.container3 .tittles {
+  display: flex;
+  flex-direction: column;
+}
+
+.areaCards {
+  width: 100%;
+  padding: 20px;
+}
+.areaCards h4 {
+  padding: 0px 1.2rem;
+}
+.areaCards .card-group {
+  padding: 5px;
+  justify-content: center;
+}
+.areaCards .card-group .card {
+  border: 0;
+  margin-right: 10px;
+}
+
+.areaMensage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30vh;
+  background-color: #ffff;
+}
+.areaMensage .covidMensage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 10rem;
+  background-color: #e7e7e7;
+  border-radius: 5px;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  width: 100%;
+  height: 10vh;
+  background-color: #fff;
+}
+.socialMedia .social-group {
+  display: flex;
+  padding: 50px;
+}
+.socialMedia .social-group .icon {
+  padding-right: 10px;
+}
+.socialMedia .social-group .icon:hover {
+  color: #00ff6a;
+}
+
+@media (max-width: 612px) {
+  .medias {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 752px) {
+  .covidMensage h6 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 752px) and (max-width: 628px) {
+  .covidMensage h6 {
+    font-size: 0.6rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

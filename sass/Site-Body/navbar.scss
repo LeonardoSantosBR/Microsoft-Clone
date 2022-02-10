@@ -1,0 +1,12 @@
+.navbar{
+    padding-left: 50px;
+    background-color:rgb(255, 255, 255);
+    .nav-end{
+       a{
+           color: rgb(66, 63, 63);
+       }
+       &:hover{
+           text-decoration: underline;
+       }
+    }
+}

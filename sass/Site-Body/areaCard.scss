@@ -1,0 +1,15 @@
+.areaCards{
+    width: 100%;
+    padding: 20px;
+    h4{
+        padding:0px 1.2rem;
+    }
+    .card-group{
+        padding: 5px;
+        justify-content: center;
+        .card{
+           border: 0;
+           margin-right: 10px;
+       }
+    }
+}
